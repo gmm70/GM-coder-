@@ -198,25 +198,72 @@
         grid-area: 1 / 1 / 2 / 4;
         max-height: 350px;
         width: 100%; 
+        animation-duration: 5s;
+        animation-name: aparecer;
+        animation-iteration-count:calc(7s);
+    }
+    @keyframes aparecer{
+        0%{
+            opacity: 0.5;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
     }
 
     .foto2{
         grid-area: 2 / 1 / 3 / 2;
         height: 350px;
         width: 100%;
+        animation-duration: 5.5s;
+        animation-name: aparecer;
+        animation-iteration-count: initial;
+    }
+    @keyframes aparecer{
+        0%{
+            opacity: 0.5;
+        }
+        100%{
+            opacity: 1;
+        }
     }
     
     .foto3{
         grid-area: 2 / 2 / 3 / 3;
         height: 350px;
         width: 100%;
+        animation-duration: 6s;
+        animation-name: aparecer;
+        animation-iteration-count: initial;
     }
+    @keyframes aparecer{
+        0%{
+            opacity: 0.5;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    
     
     .foto4{
         grid-area: 2 / 3 / 3 / 4;
         height: 350px;
         width: 474px;
+        animation-duration: 6.5s;
+        animation-name: aparecer;
+        animation-iteration-count: initial;
     }
+    @keyframes aparecer{
+        0%{
+            opacity: 0.5;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    
     
     .menu{
         flex-direction: row;
@@ -275,14 +322,12 @@
         height: 200px;
     }
 
-    
-}
-
 
 /*comienzo del css de toda la pagina*/
 
 html{
     background-color: #F9F3EE;
+    background: radial-gradient(circle, rgba(249,243,238,1) 0%, rgba(221,171,155,1) 49%, rgba(223,134,108,1) 72%);
 }
 
 .tituloIndex{
@@ -318,6 +363,17 @@ header{
 .inicio a img{
     width: 17.65;
     object-fit:contain;
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 .barra{
@@ -430,6 +486,7 @@ footer{
 }
 
 .filtro{
+    background-color: #F9F3EE;
     color: rgb(24, 33, 69);
     text-align: right;
     margin-bottom: 20px;
@@ -442,7 +499,8 @@ footer{
 
 
 .marca{
-    background-color: rgb(227, 91, 52);
+    background-color: #e35b34;
+    background: linear-gradient(90deg, rgba(227,91,52,1) 0%, rgba(255,136,98,1) 49%, rgba(255,184,144,1) 72%);
     color:rgb(24, 33, 69) ;
     overflow: auto;
     margin-left: 10px; 
@@ -453,6 +511,7 @@ footer{
 
 .marca2{
     background-color: rgb(227, 91, 52);
+    background: linear-gradient(90deg, rgba(227,91,52,1) 0%, rgba(255,136,98,1) 49%, rgba(255,184,144,1) 72%);
     color:rgb(24, 33, 69) ;
     overflow: auto;
     margin-left: 10px;
