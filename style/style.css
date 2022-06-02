@@ -7,178 +7,178 @@
 
 @media screen and (max-width:425px) {
 /*encabezado*/
-    header{
-       width: 100%; 
-    }
-    
-    .inicio{
-        width: auto;
-        align-items: center;    
-    }
-    
-    .inicio a img {
-        width: 53.53px;
-        height: 58.91px;
-    }
+header{
+    width: 100%; 
+ }
+ 
+ .inicio{
+     width: auto;
+     align-items: center;    
+ }
+ 
+ .inicio a img {
+     width: 53.53px;
+     height: 58.91px;
+ }
 
-    .barra{
-        width: 100%;
-    }
+ .barra{
+     width: 100%;
+ }
 
-    .barra nav ul{
-        height: 17px;
-    }
-    .barra nav ul{
-        width: 100%;
-        font-size: 15px;
-        flex-wrap: wrap;
-        height: auto;
-        ;      
-    }
+ .barra nav ul{
+     height: 17px;
+ }
+ .barra nav ul{
+     width: 100%;
+     font-size: 15px;
+     flex-wrap: wrap;
+     height: auto;
+     ;      
+ }
 
-    .barra nav ul li a{
-        padding: 5px;
-        width: 100%;
-        height: auto;
-    }
+ .barra nav ul li a{
+     padding: 5px;
+     width: 100%;
+     height: auto;
+ }
 
-    .barra ul li a:hover{
-        color: #e35b34;
-        font-size: 17px;
-    }
+ .barra ul li a:hover{
+     color: #e35b34;
+     font-size: 17px;
+ }
 
-    .menu{
-        flex-direction: column;
-        width: auto;
-        align-items: center;
-        padding: 5px;
-    }
+ .menu{
+     flex-direction: column;
+     width: auto;
+     align-items: center;
+     padding: 5px;
+ }
 
-    .menu img{
-        width: 25px;
-        height: 25px;
-    }
+ .menu img{
+     width: 25px;
+     height: 25px;
+ }
 
 /*section del index*/
 
-    .galeria{
-        display: grid;
-        grid-template-rows: 140px 200px 200px;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 5px;
-        row-gap: 5px;
-        grid-template-areas: 
-        "foto1 foto1"
-        "foto2 foto2"
-        "foto3 foto4"
-    }
-   
-    .foto1{
-        height: 140px;
-        width: 100%;
-        grid-area: foto1;
-    }
-    .foto2{
-        height: 200px;
-        width: 100%;
-        grid-area: foto2;
-    }
+ .galeria{
+     display: grid;
+     grid-template-rows: 140px 200px 200px;
+     grid-template-columns: 1fr 1fr;
+     column-gap: 5px;
+     row-gap: 5px;
+     grid-template-areas: 
+     "foto1 foto1"
+     "foto2 foto2"
+     "foto3 foto4"
+ }
 
-    .foto3{
-        height: 200px;
-        width: 100%;
-        grid-area: foto3;
-    }
+ .foto1{
+     height: 140px;
+     width: 100%;
+     grid-area: foto1;
+ }
+ .foto2{
+     height: 200px;
+     width: 100%;
+     grid-area: foto2;
+ }
 
-    .foto4{
-        height: 200px;
-        width: 100%;
-        grid-area: foto4;
-    }
+ .foto3{
+     height: 200px;
+     width: 100%;
+     grid-area: foto3;
+ }
+
+ .foto4{
+     height: 200px;
+     width: 100%;
+     grid-area: foto4;
+ }
 
 /*user.html*/ 
-    
-    .logeo h2{
-        font-size: 20px;
-    }
+ 
+ .logeo h2{
+     font-size: 20px;
+ }
 
-    .logeo label{
-        font-size: 17px;
-    }
+ .logeo label{
+     font-size: 17px;
+ }
 
-    .logeo p{
-        font-size: 17px;
-    }
+ .logeo p{
+     font-size: 17px;
+ }
 
 /*footer*/
-    footer h3 {
-        font-size: 18px;
-    }
+ footer h3 {
+     font-size: 18px;
+ }
 
-    footer p{
-        font-size: 12px;
-    }
+ footer p{
+     font-size: 12px;
+ }
 
-    footer a{
-        font-size: 12px;
-    }
+ footer a{
+     font-size: 12px;
+ }
 
-    p.foot {
-        font-size: 15px;
-    }
+ p.foot {
+     font-size: 15px;
+ }
 
 /*hombre.html*/
-    h2{
-        font-size: 25px;
-    }
+ h2{
+     font-size: 25px;
+ }
 
-    .filtro{
-        height: 26px;
-        width: 42%;
-        margin-left: 57%;
-        margin-right: 300px;
-        overflow-y: scroll;
-    }
+ .filtro{
+     height: 26px;
+     width: 42%;
+     margin-left: 57%;
+     margin-right: 300px;
+     overflow-y: scroll;
+ }
 
-    .filtro div p{
-        font-size: 15px;
-    }
+ .filtro div p{
+     font-size: 15px;
+ }
 
-    .t{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        height: 40px;
-    } 
-    
-    .marca2{
-        height: 30px;
-        width: 30%;
-    }
+ .t{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     height: 40px;
+ } 
+ 
+ .marca2{
+     height: 30px;
+     width: 30%;
+ }
 
-    .marca{
-        height:30px;
-        width:30%;
-    }
+ .marca{
+     height:30px;
+     width:30%;
+ }
 
-    .talle{
-        height: 20px;
-        width: 20%;
-        text-align: center;
-    }
-    .catalogo div{
-        width: 100%
-        height: 100%;
-    }
-    .catalogo div p{
-        font-size: 13px;
-    }
+ .talle{
+     height: 20px;
+     width: 20%;
+     text-align: center;
+ }
+ .catalogo div{
+     width: 100%
+     height: 100%;
+ }
+ .catalogo div p{
+     font-size: 13px;
+ }
 
-    .catalogo div img{
-        width: 165px;
-        height: 165px;
-    }
-
+ .catalogo div img{
+     width: 165px;
+     height: 165px;
+ }
+}
 
 /*este @media screen and (min-width:426px) lo utilicé para que los componentes y sus medidas me quedaran de forma ordenada en la versión de desktop,
     no encontré otra forma de solucionarlo*/
@@ -209,7 +209,7 @@
         100%{
             opacity: 1;
         }
-    }
+    
     }
 
     .foto2{
@@ -321,8 +321,8 @@
         width: 200px;
         height: 200px;
     }
-
 }
+
 /*comienzo del css de toda la pagina*/
 
 html{
@@ -343,7 +343,7 @@ li{
 
 header{
     display: grid;
-    grid-template-columns: 17.65% 72.97% 9.37%;
+    grid-template-columns: 17.65% auto 17.65%;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     position: sticky;
@@ -500,7 +500,7 @@ footer{
 
 .marca{
     background-color: #e35b34;
-    background: linear-gradient(90deg, rgba(227,91,52,1) 0%, rgba(255,136,98,1) 49%, rgba(255,184,144,1) 72%);
+    background: linear-gradient(90deg, rgba(227,91,52,1) 0%, rgba(255,136,98,1) 49%, rgba(255,184,144,1) 72);
     color:rgb(24, 33, 69) ;
     overflow: auto;
     margin-left: 10px; 
