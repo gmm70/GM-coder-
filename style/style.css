@@ -58,8 +58,6 @@
         width: 25px;
         height: 25px;
     }
-   
-}
 
 /*section del index*/
 
@@ -180,7 +178,7 @@
         width: 165px;
         height: 165px;
     }
-}
+
 
 /*este @media screen and (min-width:426px) lo utilicé para que los componentes y sus medidas me quedaran de forma ordenada en la versión de desktop,
     no encontré otra forma de solucionarlo*/
